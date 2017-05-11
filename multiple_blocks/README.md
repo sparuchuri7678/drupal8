@@ -7,5 +7,9 @@ the available blocks are defined directly in the hook implementation, but they c
 Now in Drupal 8 this got more complicated. It took me a while, but finally I found a simple example in the core system module that defines menu blocks. A menu block is structurally exactly what I was after: A block definition that adheres to the same logic, though it can be created by a user in the UI so that you never know in advance how many blocks there will be or what their block ids might be.
 
 That is where derivatives appear on the scene. Might be that this is obvious for someone coming from a strong OO background, but I had never heard of them before, so they didn't catch my attention on the first screening of the core block implementations. For those of you who, just like me, do not know what derivatives are, I will cite a phrase from the documentation:
+
+
 "Derivatives provide a simple way to expand a single plugin so that it can represent itself as multiple plugins in the user interface."
+
+For reference see the blog : http://blog.dev030.com/posts/dynamically-define-blocks-drupal-8-derivatives
 
