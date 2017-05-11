@@ -1,0 +1,6 @@
+name:  Multiple Blocks with Derivatives 
+type:  module
+description:  'A basic Drupal 8 Module which explains how to create multiple blocks using Derivatives.'
+package:  Custom Modules
+version:  1.0
+core:  8.x
