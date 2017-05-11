@@ -2,10 +2,10 @@
 
 /**
  * @file
- * Contains \Drupal\ta_user\Plugin\Field\FieldType\RealName.
+ * Contains \Drupal\custom_fieldtypes\Plugin\Field\FieldType\RealName.
  */
 
-namespace Drupal\ta_user\Plugin\Field\FieldType;
+namespace Drupal\custom_fieldtypes\Plugin\Field\FieldType;
 
 use Drupal\Core\Field\FieldItemBase;
 use Drupal\Core\Field\FieldStorageDefinitionInterface;
@@ -25,7 +25,7 @@ use Drupal\Core\TypedData\DataDefinition;
  * )
  */
 class RealName extends FieldItemBase {
-  
+
   /**
    * {@inheritdoc}
    * Using this we are defining fields for our custom field type(RealName).
@@ -54,6 +54,7 @@ class RealName extends FieldItemBase {
       ),
     );
   }
+
   /**
    * {@inheritdoc}
    * Using this we are defining data type for our custom fields

@@ -2,27 +2,27 @@
 
 /**
  * @file
- * Contains \Drupal\ta_user\Plugin\Field\FieldFormatter\  RealNameFormatter
+ * Contains \Drupal\custom_fieldtypes\Plugin\Field\FieldFormatter\  RealNameFormatter
  */
 
-namespace Drupal\ta_user\Plugin\Field\FieldFormatter;
+namespace Drupal\custom_fieldtypes\Plugin\Field\FieldFormatter;
 
 use Drupal\Core\Field\FormatterBase;
 use Drupal\Core\Field\FieldItemListInterface;
 
 /**
-* Plugin implementation of the 'realname_one_line' formatter.
-*
-* @FieldFormatter(
-* id = "realname_one_line",
-* label = @Translation("Real name (one line)"),
-* field_types = {
-* "realname"
-* }
-* )
-*/
+ * Plugin implementation of the 'realname_one_line' formatter.
+ *
+ * @FieldFormatter(
+ * id = "realname_one_line",
+ * label = @Translation("Real name (one line)"),
+ * field_types = {
+ * "realname"
+ * }
+ * )
+ */
 class RealNameFormatter extends FormatterBase {
-  
+
   /**
    * {@inheritdoc}
    * Once entity(node,user,comments) is saved how we see the field data, will be represeneted by this function
